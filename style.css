@@ -65,7 +65,7 @@ NAVIGATION
 .nav__link a {
     font-size: 20px;
     color: #f9e4bc; /*light cream*/
-    padding: 0px 4px 0px 4px;
+    padding: 0px 6px 0px 6px;
     transition: 500ms all ease;
 }
 
