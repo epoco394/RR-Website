@@ -60,18 +60,24 @@ NAVIGATION
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .nav__link a {
-    font-size: 24px;
+    font-size: 20px;
     color: #f9e4bc; /*light cream*/
+    padding: 0px 4px 0px 4px;
+    transition: 500ms all ease;
+}
+
+.nav__link a:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .nav__link--primary a {
     background-color: #ca6641; /*terracotta*/
-    color: #0e9594; /*teal*/
-    padding: 5px 5px 5px 5px;
+    color: #f9e4bc; /*light cream*/
+    padding: 4px 12px 4px 12px;
     border-radius: 25px;
 }
 
