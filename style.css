@@ -88,6 +88,10 @@ HEADER
 
 */
 
+.header__row {
+    padding: 16px 16px 16px 16px;
+}
+
 .profile__img--wrapper {
     width: 200px;
     height: 200px;
