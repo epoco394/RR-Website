@@ -27,6 +27,13 @@ LANDING
 
 #landing
 
+
+/* 
+
+NAVIGATION 
+
+*/
+
 .nav__container
 
 .nav__row {
@@ -35,32 +42,33 @@ LANDING
     justify-content: space-between;
 }
 
-.nav__title
+.nav__title {
+    font-size: 42px;
+}
 
 .nav__links {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+
 }
 
 .nav__link {
-    text-decoration: none;
 }
 
 .nav__link--primary
 
 /* 
 
-NAVIGATION 
-
-*/
-
-
-
-/* 
-
 HEADER 
 
 */
+
+.profile__img--wrapper {
+    width: 200px;
+    height: 200px;
+}
 
 .profile__img {
     width: 200px;
