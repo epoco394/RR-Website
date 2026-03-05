@@ -19,6 +19,14 @@
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 /* 
 
 LANDING
@@ -40,11 +48,12 @@ NAVIGATION
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #666;
+    background-color: #9caf88; /*sage green*/
 }
 
 .nav__title {
     font-size: 42px;
+    color: #ca6641; /*terracotta*/
 }
 
 .nav__links {
@@ -54,13 +63,16 @@ NAVIGATION
 
 }
 
-.nav__link {
-    text-decoration: none;
-    list-style: none;
+.nav__link a {
     font-size: 24px;
+    color: #f9e4bc; /*light cream*/
 }
 
-.nav__link--primary {
+.nav__link--primary a {
+    background-color: #ca6641; /*terracotta*/
+    color: #0e9594; /*teal*/
+    padding: 5px 5px 5px 5px;
+    border-radius: 25px;
 }
 
 /* 
