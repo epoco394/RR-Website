@@ -49,6 +49,7 @@ NAVIGATION
     align-items: center;
     justify-content: space-between;
     background-color: #9caf88; /*sage green*/
+    padding: 0px 16px 0px 16px;
 }
 
 .nav__title {
