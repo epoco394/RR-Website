@@ -40,6 +40,7 @@ NAVIGATION
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #666;
 }
 
 .nav__title {
@@ -48,16 +49,19 @@ NAVIGATION
 
 .nav__links {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-decoration: none;
+    justify-content: space-between;
 
 }
 
 .nav__link {
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
 }
 
-.nav__link--primary
+.nav__link--primary {
+}
 
 /* 
 
