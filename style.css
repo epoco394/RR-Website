@@ -95,14 +95,6 @@ HEADER
     justify-content: space-between;
 }
 
-.header__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
 .profile__img--wrapper {
     width: 200px;
     height: 200px;
@@ -113,4 +105,17 @@ HEADER
     height: 400px;
     border: 5px solid #b6b6b6;
     border-radius: 10%;
+}
+
+.header__content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.header__title {
+    padding-top: 72px;
 }
