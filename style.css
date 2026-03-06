@@ -267,7 +267,13 @@ FOOTER
     color: #f9e4bc; /*light cream*/
 }
 
-.footer__divider
+.footer__divider {
+    background-color: #b6b6b6; /*light gray*/
+    height: 4px;
+    width: 100%;
+    max-width: 800px;
+    margin: 16px 0px 16px 0px;
+}
 
 .footer__logo--wrapper
 
