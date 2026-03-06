@@ -149,9 +149,19 @@ ABOUT
 
 */
 
-.about__container
+.about__container {
+    height: 800px;
+    padding: 16px 16px 16px 16px;
+    background-color: #ca6641; /*terracotta*/
+}
 
-.about__row
+.about__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 768px;
+    background-color: #9caf88; /*sage green*/
+}
 
 .about__description
 
