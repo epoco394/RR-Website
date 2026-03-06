@@ -167,6 +167,8 @@ ABOUT
 .about__description {
     flex-direction: column;
     text-align: center;
+    width: 100%;
+    max-width: 650px;
 }
 
 .about__title
@@ -187,11 +189,13 @@ ABOUT
     border: 5px solid #b6b6b6; /*light gray*/
 }
 
-.about__img--1
+.about__img--1 {
+    transform: translateX(-70px);
+}
 
-.about__img--2
-
-.about__img--3
+.about__img--3 {
+    transform: translateX(-120px);
+}
 
 /*
 
