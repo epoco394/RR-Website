@@ -90,6 +90,12 @@ HEADER
 
 */
 
+.header__container {
+    padding: 16px 16px 16px 16px;
+    background-color: #0b797c; /*satin teal*/
+    height: 632px;
+}
+
 .header__row {
     padding: 16px 16px 16px 16px;
     display: flex;
