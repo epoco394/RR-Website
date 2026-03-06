@@ -283,6 +283,16 @@ FOOTER
 
 .footer__social--links
 
-.footer__social--link
+.footer__social--link {
+}
+
+.fa-brands {
+    height: 32px;
+    width: 32px;
+    background-color: #ca6641; /*terracotta*/
+    border-radius: 50%;
+    color: #f9e4bc; /*light cream*/
+    padding: 8px 7px 8px 7px;    
+}
 
 /*SCREEN SIZE RESIZING*/
