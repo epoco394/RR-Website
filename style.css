@@ -169,9 +169,13 @@ ABOUT
     text-align: center;
     width: 100%;
     max-width: 650px;
+    color: #f9e4bc; /*light cream*/
 }
 
-.about__title
+.about__title {
+    padding-bottom: 48px;
+    font-size: 36px;
+}
 
 .about__para
 
