@@ -93,6 +93,8 @@ HEADER
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 600px;
+    background-color: #f9e4bc; /*light cream*/
 }
 
 .profile__img--wrapper {
@@ -118,4 +120,8 @@ HEADER
 
 .header__title {
     padding-top: 72px;
+}
+
+.header__break {
+    color: #ca6641; /*terracotta*/
 }
