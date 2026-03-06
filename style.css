@@ -170,6 +170,7 @@ ABOUT
     width: 100%;
     max-width: 650px;
     color: #f9e4bc; /*light cream*/
+    padding-left: 16px;
 }
 
 .about__title {
