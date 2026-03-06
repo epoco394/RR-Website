@@ -184,7 +184,9 @@ ABOUT
 
 .about__note {
     font-size: 16px;
-    padding: 52px;
+    margin: 52px;
+    padding: 6px 6px 6px 6px;
+    border: 2px solid #ca6641; /*terracotta*/
 }
 
 .img__container {
