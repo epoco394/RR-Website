@@ -177,6 +177,11 @@ ABOUT
     font-size: 36px;
 }
 
+.side-note {
+    font-size: 22px;
+    text-decoration: wavy underline;
+}
+
 .about__para {
     font-size: 20px;
     padding: 16px 0px 16px 0px;
