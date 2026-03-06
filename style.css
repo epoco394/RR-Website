@@ -129,4 +129,5 @@ HEADER
 .header__title--span {
     font-family:'Permanent Marker', sans-serif;
     color: #9caf88; /*sage green*/
+    font-size: 38px;
 }
