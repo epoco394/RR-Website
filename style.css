@@ -251,7 +251,9 @@ FOOTER
     color: #f9e4bc; /*light cream*/
 }
 
-.footer__note
+.footer__note {
+    color: #ca6641; /*terracotta*/
+}
 
 .footer__nav--links {
     display: flex;
