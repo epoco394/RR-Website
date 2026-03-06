@@ -91,13 +91,15 @@ HEADER
 .header__row {
     padding: 16px 16px 16px 16px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
     height: 600px;
     background-color: #f9e4bc; /*light cream*/
 }
 
 .profile__img--wrapper {
+    display: flex;
+    align-items: center;
     width: 200px;
     height: 200px;
 }
@@ -111,15 +113,15 @@ HEADER
 
 .header__content {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+    position: absolute;
+    margin-left: 550px;
     width: 100%;
     max-width: 500px;
 }
 
 .header__title {
-    padding-top: 72px;
+    padding-bottom: 32px;
 }
 
 .header__break {
