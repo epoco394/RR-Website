@@ -132,3 +132,7 @@ HEADER
     color: #9caf88; /*sage green*/
     font-size: 38px;
 }
+
+.header__description {
+    font-size: 18px;
+}
