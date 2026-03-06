@@ -177,7 +177,10 @@ ABOUT
     font-size: 36px;
 }
 
-.about__para
+.about__para {
+    font-size: 20px;
+    padding: 16px 0px 16px 0px;
+}
 
 .img__container {
     display: flex;
