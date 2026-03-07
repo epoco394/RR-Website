@@ -239,7 +239,7 @@ EPISODES
 
 .episodes__row {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     height: 768px;
     background-color: #0b797c; /*satin teal*/
