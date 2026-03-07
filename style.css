@@ -605,6 +605,9 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     .profile__img {
         max-width: 300px;
     }
+    .header__text {
+        max-width: 250px;
+    }
     .header__title {
         font-size: 24px;
     }
@@ -725,24 +728,35 @@ SMALL PHONES, LARGE SMARTPHONES
     /* HEADER */
 
     .header__content {
-        shj
+        width: 100%;
+        max-width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
     .profile__img {
-        max-width: 150px;
+        max-width: 100px;
+        border: 2px solid #b6b6b6; /*light gray*/
     }
     .header__text {
-        max-width: 200px;
+        width: 100%;
+        max-width: 500px;
     }
     .header__title {
-        font-size: 16px;
+        font-size: 14px;
     }
     .header__title--span {
-        font-size: 20px;
+        font-size: 18px;
     }
     .header__description {
+        width: 100%;
+        max-width: 500px;
+        height: 200px;
         font-size: 12px;
     }
     .header__button {
+        padding: 6px;
         font-size: 12px;
     }
 
