@@ -599,8 +599,8 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 
     /* HEADER */
 
-    .header__row {
-        gap: 0px;
+    .header__content {
+        max-width: 650px;
     }
     .profile__img {
         max-width: 300px;
@@ -724,13 +724,13 @@ SMALL PHONES, LARGE SMARTPHONES
 
     /* HEADER */
 
-    .header__row {
-        gap: none;
+    .header__content {
+        shj
     }
     .profile__img {
         max-width: 150px;
     }
-    .header__content {
+    .header__text {
         max-width: 200px;
     }
     .header__title {
