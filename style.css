@@ -32,15 +32,6 @@ li {
 
 /* 
 
-LANDING
-
-*/
-
-#landing
-
-
-/* 
-
 NAVIGATION 
 
 */
@@ -240,7 +231,11 @@ EPISODES
 
 */
 
-.episodes__container
+.episodes__container {
+    height: 800px;
+    padding: 16px 16px 16px 16px;
+    background-color: #ca6641; /*terracotta*/
+}
 
 .episodes__row
 
@@ -281,8 +276,6 @@ FOOTER
 
 */
 
-.footer__container
-
 .footer__row {
     background-color: #9caf88; /*sage green*/
     display: flex;
@@ -290,6 +283,14 @@ FOOTER
     align-items: center;
     justify-content: center;
     color: #f9e4bc; /*light cream*/
+    height: 600px;
+}
+
+.footer__top {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: transparent;
 }
 
 .footer__note {
@@ -314,6 +315,10 @@ FOOTER
     width: 100%;
     max-width: 800px;
     margin: 16px 0px 16px 0px;
+}
+
+.footer__bottom {
+    background-color: transparent;
 }
 
 .footer__logo--wrapper
