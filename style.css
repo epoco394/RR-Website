@@ -105,10 +105,10 @@ HEADER
 }
 
 .header__row {
-    padding: 16px 16px 16px 16px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 80px;
     height: 600px;
     background-color: #f9e4bc; /*light cream*/
 }
@@ -116,23 +116,21 @@ HEADER
 .profile__img--wrapper {
     display: flex;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    flex-shrink: 0;
 }
 
 .profile__img {
-    width: 400px;
-    height: 400px;
+    width: 100%;
     border: 5px solid #b6b6b6; /*light gray*/
     border-radius: 10%;
 }
 
 .header__content {
+    display: flex;
     flex-direction: column;
-    text-align: center;
-    position: absolute;
-    margin-left: 550px;
-    width: 100%;
+    justify-content: center;
+    text-align: left;
     max-width: 500px;
 }
 
