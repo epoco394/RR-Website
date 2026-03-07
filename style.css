@@ -422,6 +422,7 @@ CONTACT
 .contact__input--boxes {
     height: 300px;
     max-width: 800px;
+    margin: 24px 0px;
 }
 
 .contact__input {
@@ -440,7 +441,20 @@ CONTACT
 }
 
 .contact__btn {
+    font-size: 16px;
     margin: 16px 0px;
+    padding: 6px 10px;
+    border: 2px solid;
+    border-radius: 16px;
+    background-color: #0b797c; /*satin teal*/
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact__btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
 
 /*
