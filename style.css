@@ -346,6 +346,10 @@ EPISODES
     margin: 0px 8px;
 }
 
+.fa-podcast {
+    cursor: not-allowed;
+}
+
 .episode__tiles {
     display: flex;
     flex-wrap: wrap;
@@ -358,7 +362,7 @@ EPISODES
 .episode__tile {
     text-decoration: none;
     color: inherit;
-    cursor: pointer;
+    cursor: not-allowed;
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -569,6 +573,10 @@ FOOTER
 .fa-tiktok:hover,
 .fa-youtube:hover {
     transform: translateY(-2px);
+}
+
+.fa-youtube {
+    cursor: not-allowed;
 }
 
 /* RESPONSIVENESS */
