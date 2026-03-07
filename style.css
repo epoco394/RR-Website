@@ -297,32 +297,38 @@ EPISODES
 
 .episode__tiles {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    gap: 24px;
+    justify-content: center;
     gap: 16px;
     width: 100%;
     max-width: 900px;
-    height: 600px;
 }
 
 .episode__tile {
     display: flex;
-    height: 100px;
+    flex-direction: column;
     width: 200px;
-    padding: 4px 8px;
+    background-color: #f9e4bc; /*light cream*/
+    border-radius: 12px;
+    padding: 12px;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.episode__tile:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
 .episode__img {
-    height: 60px;
-    width: 60px;
-    border: 2px solid #b6b6b6; /*light gray*/
-    border-radius: 10%;
-    margin: 0px 6px 0px 0px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
-.tile__content
+.tile__content {
+    text-align: center;
+}
 
 .episode__number
 
