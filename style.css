@@ -122,11 +122,18 @@ HEADER
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
     height: 600px;
     background-color: #f9e4bc; /*light cream*/
     border-radius: 16px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .profile__img--wrapper {
@@ -143,7 +150,7 @@ HEADER
     border-radius: 10%;
 }
 
-.header__content {
+.header__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
