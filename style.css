@@ -384,16 +384,28 @@ CONTACT
 
 */
 
-.contact__container
+.contact__container {
+    background-color: transparent;
+}
 
 .contact__row {
-    border-radius: 16px;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    height: 600px;
+    background-color: #ca6641; /*terracotta*/
+    padding: 16px;
+    color: #fff;
 }
 
 .contact__title
 
 .contact__para
+
+.contact__input
+
+.contact__email
+
+.contact__message
+
+.contact__btn
 
 /*
 
