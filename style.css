@@ -245,7 +245,7 @@ ABOUT
     border-radius: 16px;
 }
 
-.img__container {
+.about__img--container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -312,10 +312,10 @@ EPISODES
     justify-content: space-between;
     width: 100%;
     max-width: 220px;
+    font-size: 20px;
 }
 
 .episodes__para {
-    font-size: 20px;
     padding-top: 8px;
 }
 
@@ -730,18 +730,21 @@ SMALL PHONES, LARGE SMARTPHONES
     .header__content {
         width: 100%;
         max-width: 500px;
-        height: 500px;
         display: flex;
+        flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        gap: 48px;
     }
     .profile__img {
-        max-width: 100px;
+        display: block;
+        max-width: 200px;
         border: 2px solid #b6b6b6; /*light gray*/
+        margin: 0 auto;
     }
     .header__text {
         width: 100%;
-        max-width: 500px;
+        max-width: 400px;
+        text-align: center;
     }
     .header__title {
         font-size: 14px;
@@ -750,55 +753,98 @@ SMALL PHONES, LARGE SMARTPHONES
         font-size: 18px;
     }
     .header__description {
-        width: 100%;
-        max-width: 500px;
-        height: 200px;
         font-size: 12px;
+        padding-bottom: 20px;
     }
     .header__button {
         padding: 6px;
         font-size: 12px;
+        margin: 16px auto 0 auto;
     }
 
     /* ABOUT */
 
-    .about__img {
-        width: 150px;
+    .about__row {
+        display: flex;
+        flex-direction: column;
     }
     .about__description {
-        max-width: 450px;
+        max-width: 400px;
+        margin-top: 32px;
     }
     .about__title {
-        font-size: 26px;
+        font-size: 22px;
     }
     .side-note {
-        font-size: 20px;
+        font-size: 16px;
     }
     .about__para {
-        max-width: 400px;
-        font-size: 16px;
+        font-size: 12px;
     }
     .about__note {
         max-width: 270px;
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .about__img--wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+    }
+    .about__img {
+        width: 100px;
+        border: 2px solid #b6b6b6; /*light gray*/
+        margin-bottom: 36px;
+    }
+    .about__img--1 {
+        transform: translateY(0px);
+    }
+    .about__img--3 {
+        transform: translateY(0px);
     }
 
     /* EPISODES */
 
     .episodes__title {
-        font-size: 26px;
+        font-size: 24px;
+        margin-bottom: 48px;
+    }
+    .episodes__description--content {
+        font-size: 20px;
+        margin: 8px;
+    }
+    .episodes__para {
+        padding-bottom: 6px;
+    }
+    .fa-spotify,
+    .fa-podcast {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        padding: 5px 5px;
+    }
+    .episode__tiles {
+        max-width: 500px;
+        gap: 60px;
     }
     .episode__tile {
-        width: 170px;
+        width: 100px;
+        padding: 8px;
+    }
+    .episode__number {
+        font-size: 16px;
+    }
+    .episode__title {
+        font-size: 12px;
     }
 
     /* CONTACT */
 
     .contact__title {
-        font-size: 26px;
+        font-size: 22px;
     }
     .contact__para {
-        font-size: 18px;
+        font-size: 16px;
     }
     .contact__input {
         font-size: 14px;
@@ -820,8 +866,8 @@ SMALL PHONES, LARGE SMARTPHONES
     }
     .footer__divider {
         height: 3px;
-        max-width: 450px;
-        margin: 0px;
+        max-width: 400px;
+        margin: 24px;
     }
     .footer__bottom {
         max-width: 650px;
@@ -831,14 +877,14 @@ SMALL PHONES, LARGE SMARTPHONES
         width: 30px;
     }
     .footer__copyright {
-        font-size: 12px;
+        font-size: 8px;
     }
     .fa-instagram,
     .fa-tiktok,
     .fa-youtube {
-        height: 26px;
-        width: 26px;
-        font-size: 14px;
+        height: 24px;
+        width: 24px;
+        font-size: 12px;
         padding: 6px 5px;
     }
 }
