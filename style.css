@@ -260,11 +260,19 @@ EPISODES
     justify-content: center;
 }
 
-.episodes__link
+.episodes__link {
+    cursor: pointer;
+}
 
 .fa-spotify,
 .fa-podcast {
     color: #ca6641; /*terracotta*/
+    font-size: 20px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: #9caf88; /*sage green*/
+    padding: 6px 4px 6px 4px;
 }
 
 .episodes__tiles
