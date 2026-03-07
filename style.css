@@ -245,7 +245,7 @@ ABOUT
     border-radius: 16px;
 }
 
-.about__img--container {
+.about__img--wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
