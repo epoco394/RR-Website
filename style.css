@@ -246,18 +246,26 @@ EPISODES
     padding: 16px 16px 16px 16px;
 }
 
-.episodes__description
+.episodes__description {
+    color: #9caf88; /*sage green*/
+}
 
 .episodes__title
 
 .episodes__para
 
-.episodes__links
+.episodes__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .episodes__link
 
 .fa-spotify,
-.fa-podcast
+.fa-podcast {
+    color: #ca6641; /*terracotta*/
+}
 
 .episodes__tiles
 
@@ -343,7 +351,9 @@ FOOTER
 .footer__social--link {
 }
 
-.fa-brands {
+.fa-instagram, 
+.fa-tiktok, 
+.fa-youtube {
     height: 32px;
     width: 32px;
     background-color: #ca6641; /*terracotta*/
