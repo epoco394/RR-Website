@@ -718,7 +718,7 @@ SMALL PHONES, LARGE SMARTPHONES
     /* HEADER */
 
     .header__row {
-        gap: 0px;
+        gap: none;
     }
     .profile__img {
         max-width: 150px;
