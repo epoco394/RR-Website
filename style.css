@@ -246,13 +246,26 @@ EPISODES
     padding: 16px 16px 16px 16px;
 }
 
-.episodes__description {
-    color: #9caf88; /*sage green*/
+.episodes__title {
+    position: absolute;
+    margin-left: 350px;
+
 }
 
-.episodes__title
+.episodes__description {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    color: #9caf88; /*sage green*/
+    height: 100px;
+    width: 100%;
+    max-width: 190px;
+}
 
-.episodes__para
+.episodes__para {
+    font-size: 20px;
+    padding-top: 4px;
+}
 
 .episodes__links {
     display: flex;
@@ -273,6 +286,7 @@ EPISODES
     border-radius: 50%;
     background-color: #9caf88; /*sage green*/
     padding: 6px 4px 6px 4px;
+    margin: 0px 4px 0px 4px;
 }
 
 .episodes__tiles
