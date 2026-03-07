@@ -274,7 +274,7 @@ EPISODES
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-around;
     background-color: #0b797c; /*satin teal*/
     height: 768px;
     padding: 16px;
@@ -286,11 +286,11 @@ EPISODES
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: #9caf88; /*sage green*/
     height: 100px;
     width: 100%;
-    max-width: 700px;
+    max-width: 800px;
 }
 
 .episodes__title {
@@ -300,12 +300,14 @@ EPISODES
 .episodes__description--content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 220px;
 }
 
 .episodes__para {
     font-size: 20px;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 .episodes__links {
@@ -332,7 +334,7 @@ EPISODES
     border-radius: 50%;
     background-color: #9caf88; /*sage green*/
     padding: 6px 4px;
-    margin: 0px 4px;
+    margin: 0px 8px;
 }
 
 .episode__tiles {
@@ -340,7 +342,6 @@ EPISODES
     flex-wrap: wrap;
     gap: 24px;
     justify-content: center;
-    gap: 16px;
     width: 100%;
     max-width: 900px;
 }
