@@ -99,9 +99,9 @@ HEADER
 */
 
 .header__container {
-    padding: 16px 16px 16px 16px;
-    background-color: #0b797c; /*satin teal*/
+    padding: 16px;
     height: 632px;
+    background: linear-gradient(135deg, #0b797c 0%, #0b797c 40%, #9caf88 100%); /*satin teal to sage green gradient*/
 }
 
 .header__row {
@@ -111,6 +111,8 @@ HEADER
     gap: 80px;
     height: 600px;
     background-color: #f9e4bc; /*light cream*/
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .profile__img--wrapper {
