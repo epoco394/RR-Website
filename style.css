@@ -132,7 +132,8 @@ HEADER
 .profile__img--wrapper {
     display: flex;
     align-items: center;
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     flex-shrink: 0;
 }
 
@@ -563,4 +564,128 @@ FOOTER
     transform: translateY(-2px);
 }
 
-/*SCREEN SIZE RESIZING*/
+/* RESPONSIVENESS */
+
+/* 
+
+SMALL PHONES, TABLETS, LARGE SMARTPHONES 
+
+*/
+
+@media (max-width: 768px) {
+    /* NAV */
+    .nav__main {
+        max-width: 320px;
+    }
+    .nav__logo {
+        height: 30px;
+        width: 30px;
+    }
+    .nav__title {
+        font-size: 26px;
+    }
+    .nav__link a {
+        font-size: 16px;
+    }
+    /* HEADER */
+
+    .header__row {
+        gap: 0px;
+    }
+    .profile__img {
+        max-width: 300px;
+    }
+    .header__title {
+        font-size: 24px;
+    }
+    .header__title--span {
+        font-size: 30px;
+    }
+    .header__description {
+        font-size: 16px;
+    }
+    /* ABOUT */
+    .about__img {
+        width: 150px;
+    }
+    .about__description {
+        max-width: 450px;
+    }
+    .about__title {
+        font-size: 26px;
+    }
+    .side-note {
+        font-size: 20px;
+    }
+    .about__para {
+        max-width: 400px;
+        font-size: 16px;
+    }
+    .about__note {
+        max-width: 270px;
+        font-size: 14px;
+    }
+    /* EPISODES */
+    .episodes__title {
+        font-size: 26px;
+    }
+    .episode__tile {
+        width: 170px;
+    }
+    /* CONTACT */
+    .contact__title {
+        font-size: 26px;
+    }
+    .contact__para {
+        font-size: 18px;
+    }
+    .contact__input {
+        font-size: 14px;
+    }
+    .contact__btn {
+        font-size: 14px;
+    }
+    /* FOOTER */
+    .footer__top {
+        max-width: 550px;
+    }
+    .footer__note {
+        font-size: 20px;
+    }
+    .footer__nav--links {
+        font-size: 16px;
+    }
+    .footer__divider {
+        height: 3px;
+        max-width: 450px;
+        margin: 0px;
+    }
+    .footer__bottom {
+        max-width: 650px;
+    }
+    .footer__logo {
+        height: 30px;
+        width: 30px;
+    }
+    .footer__copyright {
+        font-size: 12px;
+    }
+    .fa-instagram,
+    .fa-tiktok,
+    .fa-youtube {
+        height: 26px;
+        width: 26px;
+        font-size: 14px;
+        padding: 6px 5px;
+    }
+}
+
+/* 
+
+SMALL PHONES, LARGE SMARTPHONES 
+
+*/
+
+@media (max-width: 550px) {
+
+}
