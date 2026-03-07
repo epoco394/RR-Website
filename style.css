@@ -393,6 +393,11 @@ CONTACT
     background-color: #ca6641; /*terracotta*/
     padding: 16px;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .contact__title
