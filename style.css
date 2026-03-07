@@ -295,11 +295,32 @@ EPISODES
     margin: 0px 4px 0px 4px;
 }
 
-.episodes__tiles
+.episodes__tiles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+}
 
-.episode__tile
+.episode__tile {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    max-width: 200px;
+    padding: 4px 8px 4px 8px;
+}
 
-.episode__img
+.episode__img {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #b6b6b6; /*light gray*/
+    border-radius: 10%;
+    margin: 0px 6px 0px 0px;
+}
+
+.tile__content
 
 .episode__number
 
