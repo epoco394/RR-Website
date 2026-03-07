@@ -399,15 +399,18 @@ FOOTER
 
 */
 
+.footer__container {
+    background-color: transparent;
+}
+
 .footer__row {
     background-color: #9caf88; /*sage green*/
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #f9e4bc; /*light cream*/
-    height: 600px;
     border-radius: 16px;
+    height: 600px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
