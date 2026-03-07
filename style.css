@@ -233,7 +233,7 @@ EPISODES
 
 .episodes__container {
     height: 800px;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
     background-color: #f9e4bc; /*light cream*/
 }
 
@@ -244,7 +244,7 @@ EPISODES
     justify-content: start;
     background-color: #0b797c; /*satin teal*/
     height: 768px;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
 }
 
 .episodes__description {
@@ -297,6 +297,8 @@ EPISODES
 
 .episodes__tiles {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -307,9 +309,8 @@ EPISODES
 .episode__tile {
     display: flex;
     height: 100px;
-    width: 100%;
-    max-width: 200px;
-    padding: 4px 8px 4px 8px;
+    width: 200px;
+    padding: 4px 8px;
 }
 
 .episode__img {
