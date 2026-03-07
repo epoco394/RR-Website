@@ -239,27 +239,33 @@ EPISODES
 
 .episodes__row {
     display: flex;
-    align-items: start;
-    justify-content: space-between;
-    height: 768px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
     background-color: #0b797c; /*satin teal*/
+    height: 768px;
     padding: 16px 16px 16px 16px;
-}
-
-.episodes__title {
-    position: absolute;
-    margin-left: 350px;
-
 }
 
 .episodes__description {
     display: flex;
-    align-items: start;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #9caf88; /*sage green*/
     height: 100px;
     width: 100%;
-    max-width: 190px;
+    max-width: 700px;
+}
+
+.episodes__title {
+    font-size: 38px;
+}
+
+.episodes__description--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .episodes__para {
