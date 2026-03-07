@@ -400,17 +400,48 @@ CONTACT
     text-align: center;
 }
 
-.contact__title
+.contact__description {
+    height: 200px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0px;
+}
 
-.contact__para
+.contact__title {
+    font-size: 36px;
+}
 
-.contact__input
+.contact__para {
+    font-size: 20px;
+}
+
+.contact__input--boxes {
+    height: 300px;
+    max-width: 800px;
+}
+
+.contact__input {
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    margin: 16px 0px;
+    padding: 6px;
+}
 
 .contact__email
 
-.contact__message
+.contact__message {
+    margin-bottom: 32px;
+    height: 100px;
+}
 
-.contact__btn
+.contact__btn {
+    margin: 16px 0px;
+}
 
 /*
 
