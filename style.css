@@ -315,6 +315,11 @@ EPISODES
 
 .episodes__link {
     cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.episodes__link:hover {
+    transform: translateY(-2px);
 }
 
 .fa-spotify,
@@ -427,6 +432,13 @@ FOOTER
     text-decoration: none;
     cursor: pointer;
     color: #f9e4bc; /*light cream*/
+        cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.footer__nav--link:hover {
+    transform: translateY(-2px);
+    text-decoration: underline 2px #f9e4bc; /*light cream*/
 }
 
 .footer__divider {
@@ -465,6 +477,13 @@ FOOTER
     border-radius: 50%;
     color: #f9e4bc; /*light cream*/
     padding: 8px 7px;    
+    transition: transform 0.2s ease;
+}
+    
+.fa-instagram:hover,
+.fa-tiktok:hover,
+.fa-youtube:hover {
+    transform: translateY(-2px);
 }
 
 /*SCREEN SIZE RESIZING*/
