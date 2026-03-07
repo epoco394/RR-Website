@@ -295,12 +295,13 @@ EPISODES
     margin: 0px 4px 0px 4px;
 }
 
-.episodes__tiles {
+.episode__tiles {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
     width: 100%;
     max-width: 900px;
     height: 600px;
