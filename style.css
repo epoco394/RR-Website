@@ -234,15 +234,15 @@ EPISODES
 .episodes__container {
     height: 800px;
     padding: 16px 16px 16px 16px;
-    background-color: #ca6641; /*terracotta*/
+    background-color: #f9e4bc; /*light cream*/
 }
 
 .episodes__row {
-     display: flex;
-    justify-content: space-between;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 768px;
-    background-color: #9caf88; /*sage green*/
+    background-color: #0b797c; /*satin teal*/
     padding: 16px 16px 16px 16px;
 }
 
