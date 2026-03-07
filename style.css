@@ -176,7 +176,7 @@ ABOUT
 
 .about__container {
     height: 800px;
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
     background-color: #ca6641; /*terracotta*/
 }
 
@@ -186,7 +186,9 @@ ABOUT
     align-items: center;
     height: 768px;
     background-color: #9caf88; /*sage green*/
-    padding: 16px 16px 16px 16px;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .about__description {
@@ -210,13 +212,13 @@ ABOUT
 
 .about__para {
     font-size: 20px;
-    padding: 16px 0px 16px 0px;
+    padding: 16px 0px;
 }
 
 .about__note {
     font-size: 16px;
     margin: 52px;
-    padding: 6px 6px 6px 6px;
+    padding: 6px;
     border: 2px solid #ca6641; /*terracotta*/
 }
 
@@ -230,7 +232,7 @@ ABOUT
 .about__img {
     box-sizing: border-box;
     width: 200px;
-    margin: 12px 6px 12px 6px;
+    margin: 12px 6px;
     border: 5px solid #b6b6b6; /*light gray*/
 }
 
@@ -262,6 +264,8 @@ EPISODES
     background-color: #0b797c; /*satin teal*/
     height: 768px;
     padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .episodes__description {
@@ -308,8 +312,8 @@ EPISODES
     width: 32px;
     border-radius: 50%;
     background-color: #9caf88; /*sage green*/
-    padding: 6px 4px 6px 4px;
-    margin: 0px 4px 0px 4px;
+    padding: 6px 4px;
+    margin: 0px 4px;
 }
 
 .episode__tiles {
@@ -362,7 +366,10 @@ CONTACT
 
 .contact__container
 
-.contact__row
+.contact__row {
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
 
 .contact__title
 
@@ -382,6 +389,8 @@ FOOTER
     justify-content: center;
     color: #f9e4bc; /*light cream*/
     height: 600px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
 .footer__top {
@@ -412,7 +421,7 @@ FOOTER
     height: 4px;
     width: 100%;
     max-width: 800px;
-    margin: 16px 0px 16px 0px;
+    margin: 16px 0px;
 }
 
 .footer__bottom {
@@ -442,7 +451,7 @@ FOOTER
     background-color: #ca6641; /*terracotta*/
     border-radius: 50%;
     color: #f9e4bc; /*light cream*/
-    padding: 8px 7px 8px 7px;    
+    padding: 8px 7px;    
 }
 
 /*SCREEN SIZE RESIZING*/
