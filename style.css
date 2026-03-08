@@ -326,8 +326,21 @@ EPISODES
 }
 
 .episodes__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #9caf88; /*sage green*/
+    margin: 0px 8px;
     cursor: pointer;
     transition: transform 0.2s ease;
+}
+
+.episodes__link i {
+    color: #ca6641; /*terracotta*/
+    font-size: 16px;
 }
 
 .episodes__link:hover {
@@ -337,13 +350,7 @@ EPISODES
 .fa-spotify,
 .fa-podcast {
     color: #ca6641; /*terracotta*/
-    font-size: 20px;
-    height: 32px;
-    width: 32px;
-    border-radius: 50%;
-    background-color: #9caf88; /*sage green*/
-    padding: 6px 4px;
-    margin: 0px 8px;
+    font-size: 16px;
 }
 
 .fa-podcast {
@@ -556,23 +563,41 @@ FOOTER
     margin: 4px;
 }
 
+.footer__social--links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer__social--link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ca6641; /*terracotta*/
+    margin: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.footer__social--link i {
+    color: #f9e4bc; /*light cream*/
+    font-size: 16px;
+}
+
+.footer__social--link:hover {
+    transform: translateY(-2px);
+}
+
 .fa-instagram, 
 .fa-tiktok, 
 .fa-youtube {
-    height: 32px;
-    width: 32px;
-    background-color: #ca6641; /*terracotta*/
-    border-radius: 50%;
-    color: #f9e4bc; /*light cream*/
-    padding: 8px 7px;    
-    transition: transform 0.2s ease;
-    margin: 4px;
-}
-    
-.fa-instagram:hover,
-.fa-tiktok:hover,
-.fa-youtube:hover {
-    transform: translateY(-2px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-youtube {
