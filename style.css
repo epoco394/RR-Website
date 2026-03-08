@@ -862,12 +862,10 @@ SMALL PHONES, LARGE SMARTPHONES
     .episodes__para {
         padding-bottom: 6px;
     }
-    .fa-spotify,
-    .fa-podcast {
+    .episodes__link {
         font-size: 20px;
         height: 30px;
         width: 30px;
-        padding: 5px 5px;
     }
     .episode__tiles {
         max-width: 500px;
@@ -901,6 +899,14 @@ SMALL PHONES, LARGE SMARTPHONES
 
     /* FOOTER */
 
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__row {
+        height: 400px;
+    }
     .footer__top {
         max-width: 550px;
     }
@@ -911,26 +917,53 @@ SMALL PHONES, LARGE SMARTPHONES
         font-size: 16px;
     }
     .footer__divider {
-        height: 3px;
+        height: 2px;
+        width: 100%;
         max-width: 400px;
         margin: 24px;
     }
     .footer__bottom {
-        max-width: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1000px;
+        padding: 20px;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .footer__logo--wrapper {
+        margin-bottom: 6px;
     }
     .footer__logo {
         height: 30px;
         width: 30px;
     }
     .footer__copyright {
-        font-size: 8px;
-    }
-    .fa-instagram,
-    .fa-tiktok,
-    .fa-youtube {
-        height: 24px;
-        width: 24px;
         font-size: 12px;
-        padding: 6px 5px;
+        text-align: center;
+    }
+    .footer__social--links {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        flex-shrink: 0;
+    }
+    .footer__social--link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #ca6641; /*terracotta*/
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+    .footer__social--link i {
+        color: #f9e4bc; /*light cream*/
+        font-size: 16px;
+        padding: 6px 6px;
+        flex-shrink: 0;
     }
 }
