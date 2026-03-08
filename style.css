@@ -476,6 +476,15 @@ CONTACT
     transform: translateY(-2px);
     box-shadow: 0 6px 14px rgba(0,0,0,0.15);
 }
+#thank-you-message {
+    display: block; /* already handled by JS, but safe */
+    font-size: 1.5rem;  /* makes text bigger */
+    font-weight: bold;   /* optional, makes it stand out */
+    color: #fff;      /* dark gray, change to fit your site */
+    text-align: center;  /* center the text */
+    margin-top: 20px;    /* space above */
+    text-decoration: underline;
+}
 
 /*
 
