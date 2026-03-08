@@ -835,10 +835,7 @@ SMALL PHONES, LARGE SMARTPHONES
         font-size: 12px;
     }
     .about__img--wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 32px;
+        display: block;
     }
     .about__img {
         width: 100px;
