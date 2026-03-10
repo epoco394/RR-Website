@@ -941,7 +941,7 @@ SMALL PHONES, LARGE SMARTPHONES
         align-items: center;
     }
     .footer__row {
-        height: 400px;
+        height: auto;
     }
     .footer__top {
         max-width: 550px;
