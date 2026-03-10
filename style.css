@@ -753,9 +753,13 @@ SMALL PHONES, LARGE SMARTPHONES
    /* NAV */
 
    .nav__row {
-    flex-wrap: wrap;
-    padding: 8px;
-   }
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-wrap: wrap;
+       text-align: center;
+       padding: 8px;
+    }
     .nav__main {
         max-width: 220px;
     }
@@ -823,6 +827,10 @@ SMALL PHONES, LARGE SMARTPHONES
 
     /* ABOUT */
 
+    .about__container {
+        height: auto;
+        padding: 16px;
+    }
     .about__row {
         display: flex;
         flex-direction: column;
@@ -872,8 +880,12 @@ SMALL PHONES, LARGE SMARTPHONES
         padding: 24px 16px;
     }
     .episodes__title {
+        text-align: center;
+        flex-wrap: wrap;
         font-size: 24px;
-        margin-bottom: 18px;
+        width: 100%;
+        max-width: 270px;
+        margin-bottom: 12px;
     }
     .episodes__description--content {
         font-size: 20px;
