@@ -990,6 +990,7 @@ SMALL PHONES, LARGE SMARTPHONES
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
         width: 32px;
         height: 32px;
         border-radius: 50%;
