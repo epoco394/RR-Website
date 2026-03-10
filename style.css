@@ -879,6 +879,11 @@ SMALL PHONES, LARGE SMARTPHONES
         font-size: 20px;
         margin: 8px;
     }
+
+    .episodes__description {
+        height: auto;
+        margin-bottom: 16px;
+    }
     .episodes__para {
         padding-bottom: 6px;
     }
