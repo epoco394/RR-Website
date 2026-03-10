@@ -762,6 +762,7 @@ SMALL PHONES, LARGE SMARTPHONES
     }
     .nav__main {
         max-width: 220px;
+        margin: 0 auto;
     }
     .nav__logo {
         height: 25px;
@@ -771,6 +772,7 @@ SMALL PHONES, LARGE SMARTPHONES
         font-size: 16px;
     }
     .nav__links {
+        width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         gap: 4px;
