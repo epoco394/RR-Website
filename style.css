@@ -981,6 +981,7 @@ SMALL PHONES, LARGE SMARTPHONES
     }
     .footer__social--links {
         display: flex;
+        width: 100%;
         justify-content: center;
         gap: 8px;
         flex-shrink: 0;
