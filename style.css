@@ -873,13 +873,12 @@ SMALL PHONES, LARGE SMARTPHONES
     }
     .episodes__title {
         font-size: 24px;
-        margin-bottom: 48px;
+        margin-bottom: 18px;
     }
     .episodes__description--content {
         font-size: 20px;
         margin: 8px;
     }
-
     .episodes__description {
         height: auto;
         margin-bottom: 16px;
