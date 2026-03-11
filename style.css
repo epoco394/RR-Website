@@ -1001,7 +1001,6 @@ SMALL PHONES, LARGE SMARTPHONES
     .footer__social--link i {
         color: #f9e4bc; /*light cream*/
         font-size: 16px;
-        padding: 6px 6px;
         flex-shrink: 0;
     }
 }
