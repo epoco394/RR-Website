@@ -681,10 +681,20 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 
     /* ABOUT */
 
-    .about__img {
-        width: 150px;
+      .about__container {
+        height: auto;
+        padding: 16px;
+    }
+    .about__row {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 32px 16px;
     }
     .about__description {
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
         max-width: 450px;
     }
     .about__title {
@@ -694,12 +704,30 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
         font-size: 20px;
     }
     .about__para {
+        margin: 0 auto;
         max-width: 400px;
         font-size: 16px;
     }
     .about__note {
+        margin: 0 auto;
         max-width: 270px;
         font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+    .about__img--wrapper {
+        display: block;
+    }
+    .about__img {
+        width: 150px;
+        border: 4px solid #b6b6b6; /*light gray*/
+        margin-bottom: 36px;
+    }
+    .about__img--1 {
+        transform: translateY(0px);
+    }
+    .about__img--3 {
+        transform: translateY(0px);
     }
 
     /* EPISODES */
@@ -868,19 +896,10 @@ SMALL PHONES, LARGE SMARTPHONES
         max-width: 270px;
         font-size: 12px;
     }
-    .about__img--wrapper {
-        display: block;
-    }
-    .about__img {
+      .about__img {
         width: 100px;
         border: 2px solid #b6b6b6; /*light gray*/
         margin-bottom: 36px;
-    }
-    .about__img--1 {
-        transform: translateY(0px);
-    }
-    .about__img--3 {
-        transform: translateY(0px);
     }
 
     /* EPISODES */
