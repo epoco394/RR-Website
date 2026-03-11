@@ -369,7 +369,6 @@ EPISODES
 .episode__tile {
     text-decoration: none;
     color: inherit;
-    cursor: not-allowed;
     display: flex;
     flex-direction: column;
     width: 200px;
