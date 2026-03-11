@@ -652,22 +652,31 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 
     .header__container {
         height: auto;
+        padding: 16px;
     }
     .header__row {
         height: auto;
+        padding: 32px 16px;
     }
     .header__content {
-        justify-content: center;
-        text-align: center;
-        gap: 16px;
         width: 100%;
         max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 48px;
     }
     .profile__img {
+        display: block;
         max-width: 200px;
+        border: 2px solid #b6b6b6; /*light gray*/
+        margin: 0 auto;
     }
     .header__text {
-        max-width: 250px;
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
     }
     .header__title {
         font-size: 24px;
@@ -677,11 +686,17 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     }
     .header__description {
         font-size: 16px;
+        padding-bottom: 20px;
     }
-
+    .header__button {
+        padding: 6px;
+        font-size: 16px;
+        margin: 16px auto 0 auto;
+    }
+    
     /* ABOUT */
-
-      .about__container {
+    
+    .about__container {
         height: auto;
         padding: 16px;
     }
@@ -729,18 +744,18 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     .about__img--3 {
         transform: translateY(0px);
     }
-
+    
     /* EPISODES */
-
+    
     .episodes__title {
         font-size: 26px;
     }
     .episode__tile {
         width: 170px;
     }
-
+    
     /* CONTACT */
-
+    
     .contact__title {
         font-size: 26px;
     }
@@ -755,7 +770,7 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
     }
 
     /* FOOTER */
-
+    
     .footer__top {
         max-width: 550px;
     }
@@ -789,16 +804,16 @@ SMALL PHONES, LARGE SMARTPHONES
 */
 
 @media (max-width: 550px) {
-
-   /* NAV */
-
-   .nav__row {
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       flex-wrap: wrap;
-       text-align: center;
-       padding: 8px;
+    
+    /* NAV */
+    
+    .nav__row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 8px;
     }
     .nav__main {
         max-width: 220px;
@@ -821,7 +836,7 @@ SMALL PHONES, LARGE SMARTPHONES
     .nav__link a {
         font-size: 11px;
     }
-
+    
     /* HEADER */
 
     .header__container {
