@@ -650,11 +650,21 @@ SMALL PHONES, TABLETS, LARGE SMARTPHONES
 
     /* HEADER */
 
+    .header__container {
+        height: auto;
+    }
+    .header__row {
+        height: auto;
+    }
     .header__content {
+        justify-content: center;
+        text-align: center;
+        gap: 16px;
+        width: 100%;
         max-width: 650px;
     }
     .profile__img {
-        max-width: 300px;
+        max-width: 200px;
     }
     .header__text {
         max-width: 250px;
